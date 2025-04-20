@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0; padding: 0;
+        }
+        #heading {
+            text-align: left;
+        }
+        #container {
+            height: 200px;
+            width: 200px;
+            background-color: aqua;
+            border: 2px solid;
+            margin: 10px;
+            display: grid;
+            grid-template-columns: 50px 150px;
+            grid-template-rows: 50px 50px;
+            }
+        .box {
+            height: 50px;
+            width: 50px;
+            background-color: red;
+            border: 2px solid;
+            margin: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="heading">Flex container</h1>
+    <div id="container">
+    <div id="box1" class="box">Box1</div>
+    <div id="box2" class="box">Box2</div>
+    <div id="box3" class="box">Box3</div>
+    <div id="box4" class="box">Box4</div>
+    </div>
+</body>
+</html>

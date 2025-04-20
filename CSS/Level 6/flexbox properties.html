@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0; padding: 0;
+        }
+        #heading {
+            text-align: center;
+        }
+        #container {
+            height: 500px;
+            width: 800px;
+            background-color: aqua;
+            border: 2px solid;
+            margin: 10px;
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            align-items: center;
+            align-content: center;
+        }
+        .box {
+            height: 180px;
+            width: 180px;
+            background-color: red;
+            margin: 2px;
+            border: 2px dashed;
+        }
+        #box2 {
+            flex-grow: 20;
+            order: 2;
+        }
+        #box1 {
+            order: 3;
+        }
+        #box3 {
+            order: 4;
+        } 
+        #box4 {
+            order: 5;
+        } 
+        #box5 {
+            order: 1;
+        } 
+    </style>
+</head>
+<body>
+    <h1 id="heading">Flex container</h1>
+    <div id="container">
+    <div id="box1" class="box">Box1</div>
+    <div id="box2" class="box">Box2</div>
+    <div id="box3" class="box">Box3</div>
+    <div id="box4" class="box">Box4</div>
+    <div id="box5" class="box">Box5</div>
+    </div>
+</body>
+</html>

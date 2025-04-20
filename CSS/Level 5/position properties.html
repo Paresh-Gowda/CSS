@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0; padding: 0;
+        }
+        .box {
+            background-color: red;
+            height: 50px;
+            width: 50px;
+            margin: 5px;
+        }
+        #box1 {
+            position: static;
+        }
+        #box2 {
+            position: absolute;
+            top: 10px;
+            left: 50px;
+        }
+        #box3 {
+            position: relative;
+            top: 20px;
+            left: 50px;
+        }
+        #box4 {
+            position: fixed;
+            right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="box1" class="box">Box1</div>
+    <div id="box2" class="box">Box2</div>
+    <div id="box3" class="box">Box3</div>
+    <div id="box4" class="box">Box4</div>
+</body>
+</html>
